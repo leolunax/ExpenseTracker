@@ -14,6 +14,8 @@
 		D5851B4A2BE29ECC00274E4E /* ExpenseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5851B492BE29ECC00274E4E /* ExpenseTrackerTests.swift */; };
 		D5851B542BE29ECC00274E4E /* ExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5851B532BE29ECC00274E4E /* ExpenseTrackerUITests.swift */; };
 		D5851B562BE29ECC00274E4E /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5851B552BE29ECC00274E4E /* ExpenseTrackerUITestsLaunchTests.swift */; };
+		D5851B632BE29FFE00274E4E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5851B622BE29FFE00274E4E /* Extensions.swift */; };
+		D5851B652BE2A38100274E4E /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5851B642BE2A38100274E4E /* TransactionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D5851B4F2BE29ECC00274E4E /* ExpenseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5851B532BE29ECC00274E4E /* ExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITests.swift; sourceTree = "<group>"; };
 		D5851B552BE29ECC00274E4E /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5851B622BE29FFE00274E4E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D5851B642BE2A38100274E4E /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		D5851B372BE29ECB00274E4E /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				D5851B642BE2A38100274E4E /* TransactionModel.swift */,
 				D5851B382BE29ECB00274E4E /* ExpenseTrackerApp.swift */,
 				D5851B3A2BE29ECB00274E4E /* ContentView.swift */,
+				D5851B622BE29FFE00274E4E /* Extensions.swift */,
 				D5851B3C2BE29ECC00274E4E /* Assets.xcassets */,
 				D5851B3E2BE29ECC00274E4E /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5851B652BE2A38100274E4E /* TransactionModel.swift in Sources */,
 				D5851B3B2BE29ECB00274E4E /* ContentView.swift in Sources */,
+				D5851B632BE29FFE00274E4E /* Extensions.swift in Sources */,
 				D5851B392BE29ECB00274E4E /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
